@@ -1,0 +1,1004 @@
+html{
+     margin: 0;
+     padding: 0;
+     height: 100%;
+     overflow: hidden;
+     background-color: #fff;
+     margin: 0 auto;
+}
+
+body{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Domine';
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 30vw 0 5vw ;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+}
+
+
+
+header h1{
+    margin: 0;
+    padding: 0;
+    margin-top: -200px;
+    text-align: center;
+    font-size: 150px;
+    font-family: "Dancing Script";
+}
+
+header p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Courgette";
+}
+
+header, header:before{
+    background: 70% 30% / cover;
+}
+
+header::before{
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: url(img1/index.jpg);
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+}
+
+section{
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+    box-sizing: border-box;
+    position: static;
+    transform-style: inherit;
+    
+}
+
+.listbox{
+    display: inline-block;
+    box-sizing: border-box;
+    position: static;
+    transform-style: inherit;
+    width: 100vw;
+    text-align: center;
+    background-color: #FEA18E;
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+    
+    height: 60px;
+    border-radius: 3px;
+    background-color: #FEA18E;
+    line-height: 4px;
+   
+}
+
+.Home {
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    
+    margin-left: 370px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #405159;
+    text-decoration: none;
+    margin-top: 27px; 
+  }
+
+.Home:hover{
+    mix-blend-mode: color-dodge;
+}  
+
+.About-Us {
+    width: 150px;
+    
+    font-size: 30px;
+    font-weight: 900;
+    color: #405159;
+    margin-top: 27px;
+    margin-left: 80px;
+    text-decoration: none;
+  }
+
+.About-Us:hover{
+    mix-blend-mode: color-dodge;
+}  
+
+.Menu{
+    width: 95px;
+    
+    font-size: 30px;
+    font-weight: 900;
+    color: #405159;
+    margin-top: 27px;
+    margin-left: 80px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.Menu:hover{
+    mix-blend-mode: color-dodge;
+}
+
+.Orders{
+    width: 110px;
+    
+    
+    font-size: 30px;
+    font-weight: 900;
+    color: #405159;
+    margin-top: 27px;
+    margin-left: 80px;
+    text-decoration: none;
+}
+
+.Orders:hover{
+    mix-blend-mode: color-dodge;
+}
+
+.Contact{
+    width: 130px;
+    
+    
+    font-size: 30px;
+    font-weight: 900;
+    color: #405159;
+    margin-top: 27px;
+    margin-left: 80px;
+    text-decoration: none;
+    
+  }
+
+.Contact:hover{
+    mix-blend-mode: color-dodge;
+}  
+
+.login{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 270px;
+  }
+
+.login:hover{
+    mix-blend-mode: color-dodge;
+} 
+
+.car{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.car:hover{
+    mix-blend-mode: color-dodge;
+}
+
+.newcakesbox{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: #FDD0A7;
+    display: inline-block;
+    box-sizing: border-box;
+    position: static;
+    transform-style: inherit;
+}
+
+
+.box1{
+    background-color: #FAEEE4;
+    
+    margin-top: 30px;
+    height: 90px;
+}
+
+.newcakes{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+    
+.cake{
+    width: 35px;
+    height: 35px;
+    
+}
+
+.newcakesfont{
+    padding: 0;
+    margin: 0;
+    
+    width: 300px;
+    margin-left: 30px;
+    color: #405159;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.box2{
+    margin: 0;
+    padding: 0;
+    background-color: #FAEEE4;
+    text-align: center;
+    
+}
+
+.new1box{
+    height: 381px;
+    width: 474px;
+    margin-bottom: 10px;
+    
+    overflow: hidden;
+    display: inline-block;
+}
+
+.new1{
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+    
+}
+
+.new1:hover{
+    transform: scale(1.2);
+}
+
+.new2box{
+    height: 381px;
+    width: 474px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.new2{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.new2:hover{
+    transform: scale(1.2);
+}
+
+.new3box{
+    height: 381px;
+    width: 474px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.new3{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+    
+}
+
+.new3:hover{
+    transform: scale(1.2);
+}
+
+.box3-1{
+    
+    position: inherit;
+    transform-style: inherit; 
+    background-color: #FAEEE4;
+    
+    text-align: right;
+    height: 75px;
+    
+
+}
+
+
+.box3{
+    margin: 0;
+    padding: 0;
+    background-color: #FAEEE4;
+    height: 30px;
+    text-align: right;
+    height: 45px;
+    
+}
+
+.morebox{
+     margin-right: 83px;
+     
+}
+
+.more1 {
+    margin: 0;
+    
+    font-size: 25px;
+    font-weight: bold;
+    color: #FEA18E;
+    width: 59px;
+    height: 28px;
+    border: solid 1px #FEA18E;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    background: none;
+    transition: 0.8s;  
+    
+}
+
+
+
+
+
+.more1:hover{
+    color: #fff;
+    background-color: #FEA18E;
+    transition: 0.8s; 
+    border-radius: 20px;
+}
+
+.todayhitbox{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: #FDD0A7;
+    display: inline-block;
+    box-sizing: border-box;
+    position: static;
+    transform-style: inherit;
+}
+
+.box4{
+    background-color: #FAEEE4;
+    
+    margin-top: 30px;   
+    height: 90px;
+}
+
+.todayhit{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.hit{
+    width: 35px;
+    height: 35px;
+    
+}
+
+.todayhitfont{
+    padding: 0;
+    margin: 0;
+    
+    width: 300px;
+    color: #405159;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.box5{
+    margin: 0;
+    padding: 0;
+    background-color: #FAEEE4;
+    
+    text-align: center;
+}
+
+.hit1box{
+    height: 381px;
+    width: 474px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+
+.hit1{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.hit1:hover{
+    transform: scale(1.2);
+}
+
+.hit2box{
+    height: 381px;
+    width: 474px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.hit2{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.hit2:hover{
+    transform: scale(1.2);
+}
+
+.hit3box{
+    height: 381px;
+    width: 474px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.hit3{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.hit3:hover{
+    transform: scale(1.2);
+}
+
+.box6-1{
+    position: inherit;
+    transform-style: inherit; 
+    background-color: #FAEEE4;
+    
+    text-align: right;
+    height: 75px;
+}
+
+.box6{
+    margin: 0;
+    padding: 0;
+    background-color: #FAEEE4;
+    height: 30px;
+    text-align: right;
+    height: 45px;
+    
+}
+
+.morebox2{
+    margin-right: 83px;
+    
+}
+
+.more2 {
+   margin: 0;
+   
+   font-size: 25px;
+   font-weight: bold;
+   color: #FEA18E;
+   width: 59px;
+   height: 28px;
+   border: solid 1px #FEA18E;
+   border-radius: 3px;
+   text-decoration: none;
+   padding: 5px 20px;
+   cursor: pointer;
+   background: none;
+   transition: 0.8s;  
+   
+}
+
+
+
+
+
+.more2:hover{
+   color: #fff;
+   background-color: #FEA18E;
+   transition: 0.8s; 
+   border-radius: 20px;
+}
+
+
+.specialtytbox{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: #FDD0A7;
+    display: inline-block;
+    box-sizing: border-box;
+    position: static;
+    transform-style: inherit;
+   
+}
+
+.box7{
+    background-color: #FAEEE4;
+    
+    margin-top: 30px;   
+    height: 90px;
+}
+
+.specialty{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.special{
+    width: 35px;
+    height: 35px;
+    
+}
+
+.specialtyfont{
+    padding: 0;
+    margin: 0;
+    
+    width: 100px;
+    margin-left: 30px;
+    color: #405159;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.box8{
+    margin: 0;
+    padding: 0;
+    background-color: #FAEEE4;
+    
+    text-align: center;
+}
+
+.spe1box{
+    height: 381px;
+    width: 474px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+
+.spe1{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.spe1:hover{
+    transform: scale(1.2);
+}
+
+.spe2box{
+    height: 381px;
+    width: 474px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.spe2{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.spe2:hover{
+    transform: scale(1.2);
+}
+
+.spe3box{
+    height: 381px;
+    width: 474px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.spe3{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.spe3:hover{
+    transform: scale(1.2);
+}
+
+.box9-1{
+    position: inherit;
+    transform-style: inherit; 
+    background-color: #FAEEE4;
+    
+    text-align: right;
+    height: 75px;
+    margin-bottom: 30px;
+}
+
+.box9{
+    margin: 0;
+    padding: 0;
+    background-color: #FAEEE4;
+    height: 30px;
+    text-align: right;
+    height: 45px;
+    
+}
+
+.morebox3{
+    margin-right: 83px;
+    
+}
+
+.more3 {
+   margin: 0;
+   
+   font-size: 25px;
+   font-weight: bold;
+   color: #FEA18E;
+   width: 59px;
+   height: 28px;
+   border: solid 1px #FEA18E;
+   border-radius: 3px;
+   text-decoration: none;
+   padding: 5px 20px;
+   cursor: pointer;
+   background: none;
+   transition: 0.8s;  
+   
+}
+
+
+
+
+
+.more3:hover{
+   color: #fff;
+   background-color: #FEA18E;
+   transition: 0.8s; 
+   border-radius: 20px;
+}
+
+footer{
+    background-color: #97DBEE;
+    width: 100vw;
+    
+    position: absolute;
+    height: 220px;
+    text-align: center;
+}
+
+.Pâtisseriebox{
+    box-sizing: border-box;
+    
+}
+
+.Pâtisserie{
+    margin: 0;
+
+    font-size: 100px;
+    font-family: "Dancing Script";
+    margin-top: 50px;
+    color: #405159;
+    margin-bottom: 50px;
+    
+}
+
+.aboutuslist{
+    margin: 0;
+    margin-left: 400px;
+    text-align: left;
+}
+
+.aboutuslist1{
+    margin: 0;
+    margin-top: 35px;
+    text-decoration: none;
+    
+}
+
+.AboutUs1{
+    text-decoration: none;
+    
+    color: #405159;
+    font-size: 25px;
+}
+
+.AboutUs1:hover{
+    color: #fff;
+}
+
+.textaboutus{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.history{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.history1{
+    text-decoration: none;
+    color: #405159;
+}
+
+.history1:hover{
+    color: #fff;
+}
+
+
+.awards{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.awards1{
+    text-decoration: none;
+    color: #405159;
+}
+
+.awards1:hover{
+    color: #fff;
+}
+
+
+.goal{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.goal1{
+    color: #405159;
+    text-decoration: none;
+}
+
+.goal1:hover{
+    color: #fff;
+}
+
+.Menulist{
+    margin: 0;
+    margin-left: 120px;
+    text-align: left;
+}
+
+.Menulist1{
+    margin: 0;
+    margin-top: 35px;
+}
+
+.Menu1{
+    text-decoration: none;
+    color: #405159;
+    font-size: 25px;
+}
+
+.Menu1:hover{
+    color: #fff;
+}
+
+
+.textMenu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Weddingcake{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.Weddingcake1{
+    color: #405159;
+    text-decoration: none;
+}
+
+.Weddingcake1:hover{
+    color: #fff;
+}
+
+.CupCake{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.CupCake1-1{
+    color: #405159;
+    text-decoration: none;
+}
+
+.CupCake1-1:hover{
+    color: #fff;
+}
+
+.Tart{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.Tart1{
+    color: #405159;
+    text-decoration: none;
+}
+
+.Tart1:hover{
+    color: #fff;
+
+}
+
+.Orderslist{
+    margin: 0;
+    margin-left: 120px;
+    text-align: left;
+}
+
+.Orderslist1{
+    margin: 0;
+    margin-top: 35px;
+}
+
+.Orders1{
+    text-decoration: none;
+    color: #405159;
+    font-size: 25px;
+}
+
+.Orders1:hover{
+    color: #fff;
+}
+
+.textOrders{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Payments{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.Payments1{
+    color: #405159;
+    text-decoration: none;
+}
+
+.Payments1:hover{
+    color: #fff;
+}
+
+.Delivery{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.Delivery1{
+    color: #405159;
+    text-decoration: none;
+}
+
+.Delivery1:hover{
+    color: #fff;
+}
+
+.GiftCard{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.GiftCard1{
+    color: #405159;
+    text-decoration: none;
+}
+
+.GiftCard1:hover{
+    color: #fff;
+}
+
+.ContactUslist{
+    margin: 0;
+    margin-left: 120px;
+    text-align: left;
+}
+
+.ContactUslist1{
+    margin: 0;
+    margin-top: 35px;
+}
+
+.ContactUs1{
+    text-decoration: none;
+    color: #405159;
+    font-size: 25px;
+}
+
+.ContactUs1:hover{
+    color: #fff;
+}
+
+.FollowUs{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.FollowUs1{
+    color: #405159;
+    text-decoration: none;
+}
+
+.FollowUs1:hover{
+    color: #fff;
+}
+
+.face{
+    height: 23px;
+    width: 23px;
+}
+
+.face:hover{
+    mix-blend-mode: color-dodge;
+}
+
+.inst{
+    height: 23px;
+    width: 23px;
+    margin-left: 10px; 
+}
+
+.inst:hover{
+    mix-blend-mode: color-dodge;
+}
+
+.twi{
+    height: 23px;
+    width: 23px;
+    margin-left: 10px;  
+}
+
+.twi:hover{
+    mix-blend-mode: color-dodge;
+}

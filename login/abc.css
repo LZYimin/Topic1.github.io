@@ -1,0 +1,202 @@
+html{
+    margin: 0;
+     padding: 0;
+     max-width: 1920px;
+    height: 1080px;
+     
+}
+
+body{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    
+    width: 1920px;
+    height: 1080px;
+    overflow-y: hidden;
+    overflow-x: hidden;  
+    font-family: "Domine";
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    max-width: 1920px;
+    min-height: 1080px;
+    
+    position: static;
+    
+    width: 100vw;
+    font-family: "Domine";
+}
+
+
+
+
+
+
+
+
+
+#bg{
+    width: 1920px;
+    height: 1080px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: bg 10s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url(img3/1.jpg)
+}
+
+
+@keyframes bg{
+    0%{
+        background-image: url(img3/1.jpg);
+    }
+
+    25%{
+        background-image: url(img3/2.jpg);
+        
+    }
+    
+    50%{
+        background-image: url(img3/3.jpg);
+    }
+
+    75%{
+        background-image: url(img3/4.jpg);
+    }
+    
+    100%{
+        background-image: url(img3/5.jpg);
+    }
+
+    100%{
+        background-image: url(img3/1.jpg);
+    }
+}
+
+
+
+
+
+
+.title{
+    padding: 0;
+    margin: 0;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background: none;
+    text-align: center;
+    
+}
+
+.title h1{
+    color: #fff;
+    font-family: "Domine";
+    font-size: 80px;
+    text-align: left;
+
+}
+
+
+.title input[type = "text"]{
+    border: 0;
+    display: block;
+    margin: 30px auto;
+    text-align: left;
+    background: #fff;
+    padding: 14px 20px;
+    width: 536px;
+    height: 60px;
+    outline: none;
+    color: #405159;
+    border-radius: 10px;
+    transition: 0.25s;
+    font-family: "Domine";
+    font-size: 20px;
+}
+
+.title input[type = "password"]{
+    border: 0;
+    display: block;
+    margin: 30px auto 15px auto;
+    text-align: left;
+    font-family: "Domine";
+    background: #fff;
+    padding: 14px 20px;
+    width: 536px;
+    height: 60px;
+    outline: none;
+    color: #405159;
+    border-radius: 10px;
+    transition: 0.25s;
+    font-size: 20px;
+}
+
+.title input[type = "text"]:focus{
+    width: 600px;
+    
+}
+
+.title input[type = "password"]:focus{
+    width: 600px; 
+}
+
+.title input[type = "submit"]{
+    border: 0;
+    display: block;
+    margin-top: 60px;
+    margin-left: 250px;
+    font-family: "Domine";
+    background: #fff;
+    padding: 10px 10px;
+    width: 100px;
+    height: 50px;
+    outline: none;
+    color: #405159;
+    border-radius: 10px;
+    transition: 0.25s;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.title input[type = "submit"]:hover{
+    background: #405159;
+    color: #fff;
+}
+
+.title input[type = "submit"]:focus{
+    background: #6e838b;
+    color: #fff;
+}
+
+.forget{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 405px;
+    width: 200px;
+    height: 100px;
+    
+}
+
+.account{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.forget:hover{
+    text-decoration: none;
+}
+
+.account:hover{
+    text-decoration: none;
+}
+       
